@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ProjetoDM113/1.0.0": {
+        "runtime": {
+          "ProjetoDM113.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjetoDM113/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

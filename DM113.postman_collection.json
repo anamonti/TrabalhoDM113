@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "242491f2-4323-4015-9882-3e1c3b255016",
+		"name": "DM113",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "5554780"
+	},
+	"item": [
+		{
+			"name": "AddPerson",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"Ana Julia Monti\",\r\n    \"CPF\": \"123.456.789-10\",\r\n    \"Address\": \"Rua Sem Nome\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5270/person"
+			},
+			"response": []
+		},
+		{
+			"name": "GetPeople",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5270/person"
+			},
+			"response": []
+		},
+		{
+			"name": "GetPerson",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5270/person/7c186082-0ece-4179-80f0-f96f19cc8954"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePerson",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"Ana Julia Miranda\",\r\n    \"CPF\": \"123.456.789-10\",\r\n    \"Address\": \"Rua Sem Nome\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5270/person/7886f453-421b-402f-b654-3989b122a7c5"
+			},
+			"response": []
+		},
+		{
+			"name": "DeletePerson",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:5270/person/7886f453-421b-402f-b654-3989b122a7c5"
+			},
+			"response": []
+		}
+	]
+}
